@@ -9,7 +9,6 @@ public class FibonacciDemo {
 	
 	// Rekursive Methode zur Berechnung der n-ten Fibonacci-Zahl
 	public static int fibonacci(int n) {
-		//TODO Implement!
 		fFormer = 0;
 		fNew = 1;
 		f = fFormer + fNew;
