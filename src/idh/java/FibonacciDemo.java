@@ -4,8 +4,10 @@ public class FibonacciDemo {
 
 	// Rekursive Methode zur Berechnung der n-ten Fibonacci-Zahl
 	public static int fibonacci(int n) {
-		//TODO Implement!
-		return -1; 
+	    if (n <= 1) {
+	        return n; // Base cases: F(0) = 0, F(1) = 1
+	    }
+	    return fibonacci(n - 1) + fibonacci(n - 2); // Recursive case
 	}
 
 	
