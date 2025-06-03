@@ -19,7 +19,7 @@ public class FibonacciDemo {
 	
 	public static void main(String[] args) {
 		int n = 47; // Anzahl der Fibonacci-Zahlen, die berechnet werden sollen
-		System.out.println("Die ersten " + n + " Fibonacci-Zahlen schimpfen sich wie folgt und die letzte ist ein:");
+		System.out.println("Die ersten " + n + " Fibonacci-Zahlen: ");
 		for (int i = 0; i < n; i++) {
 			System.out.print(fibonacci(i) + " ");
 		}
