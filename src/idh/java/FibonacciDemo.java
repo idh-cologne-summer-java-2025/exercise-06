@@ -15,11 +15,15 @@ public class FibonacciDemo {
 
 	
 	public static void main(String[] args) {
-		int n = 10; // Anzahl der Fibonacci-Zahlen, die berechnet werden sollen
+		int n = 20; // Anzahl der Fibonacci-Zahlen, die berechnet werden sollen
 		System.out.println("Die ersten " + n + " Fibonacci-Zahlen:");
 		for (int i = 0; i < n; i++) {
-			System.out.print(fibonacci(i) + " ");
+			System.out.print(fibonacci(i));
+			if (i < n-1) {
+				System.out.print("");
+			}
 		}
+		System.out.println();
 	}
 
 }
